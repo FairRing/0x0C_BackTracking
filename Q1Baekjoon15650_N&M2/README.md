@@ -1,14 +1,63 @@
-## Getting Started
+# N과 M (2)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- 출처 ; [https://www.acmicpc.net/problem/15650](https://www.acmicpc.net/problem/15650)
 
-## Folder Structure
+## 문제
 
-The workspace contains two folders by default, where:
+> 자연수 N과 M이 주어졌을 때, 아래 조건을 만족하는 길이가 M인 수열을 모두 구하는 프로그램을 작성하시오.
+> 1부터 N까지 자연수 중에서 중복 없이 M개를 고른 수열
+> 고른 수열은 오름차순이어야 한다.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 입력
 
-## Dependency Management
+- 첫째 줄에 자연수 N과 M이 주어진다. (1 ≤ M ≤ N ≤ 8)
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 출력
+
+- 한 줄에 하나씩 문제의 조건을 만족하는 수열을 출력한다. 중복되는 수열을 여러 번 출력하면 안되며, 각 수열은 공백으로 구분해서 출력해야 한다.
+- 수열은 사전 순으로 증가하는 순서로 출력해야 한다.
+
+## 예제
+
+- 입력 1
+
+```cmd
+3 1
+```
+
+- 출력 1
+
+```cmd
+1
+2
+3
+```
+
+- 입력 2
+
+```cmd
+4 2
+```
+
+- 출력 2
+
+```cmd
+1 2
+1 3
+1 4
+2 3
+2 4
+3 4
+```
+
+- 입력 3
+
+```cmd
+4 4
+```
+
+- 출력 3
+
+```cmd
+1 2 3 4
+```
